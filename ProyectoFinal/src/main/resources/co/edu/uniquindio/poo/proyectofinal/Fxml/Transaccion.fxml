@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="869.0" prefWidth="943.0" spacing="10" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.proyectofinal.ViewController.TransaccionVC">
+    <padding>
+        <Insets bottom="10" left="10" right="10" top="10" />
+    </padding>
+   <children>
+      <AnchorPane prefHeight="890.0" prefWidth="921.0">
+         <children>
+              <Button fx:id="btt_Limpiar" layoutX="748.0" layoutY="586.0" onAction="#Limpiar" prefHeight="23.0" prefWidth="100.0" styleClass="btnBotones" stylesheets="@../Css/Buttons.css" text="Limpiar" />
+              <TextField fx:id="txt_monto" layoutX="370.0" layoutY="200.0" prefHeight="37.0" prefWidth="131.0" promptText="MONTO" styleClass="botonBlanco" stylesheets="@../Css/Color.css" />
+              <TextField fx:id="txt_Descripcion" layoutX="175.0" layoutY="285.0" prefHeight="37.0" prefWidth="131.0" promptText="Descripcción" styleClass="botonBlanco" stylesheets="@../Css/Color.css" />
+              <TextField fx:id="txt_id" layoutX="112.0" layoutY="127.0" prefHeight="37.0" prefWidth="131.0" promptText="ID" styleClass="botonBlanco" stylesheets="@../Css/Color.css" />
+              <DatePicker fx:id="Date_Fecha" layoutX="370.0" layoutY="122.0" prefHeight="37.0" prefWidth="131.0" promptText="Fecha" styleClass="botonBlanco" stylesheets="@../Css/Color.css" />
+      
+                    <Label layoutX="38.0" layoutY="280.0" styleClass="funTxt" stylesheets="@../Css/Color.css" text="Descripción:" />
+              <Label layoutX="38.0" layoutY="121.0" styleClass="funTxt" stylesheets="@../Css/Color.css" text="ID:" />
+      
+                    <Label layoutX="38.0" layoutY="200.0" styleClass="funTxt" stylesheets="@../Css/Color.css" text="Tipo:" />
+      
+                    <Label layoutX="280.0" layoutY="200.0" styleClass="funTxt" stylesheets="@../Css/Color.css" text="Monto:" />
+      
+                    <Label layoutX="280.0" layoutY="122.0" styleClass="funTxt" stylesheets="@../Css/Color.css" text="Fecha:" />
+         
+             <!-- Tabla de transacciones -->
+             <TableView fx:id="tb_Transaccion" layoutX="38.0" layoutY="561.0" prefHeight="214.0" prefWidth="692.0" styleClass="table" stylesheets="@../Css/Color.css">
+                 <columns>
+                     <TableColumn fx:id="tbc_IDG" prefWidth="75" text="ID" />
+                     <TableColumn fx:id="tbc_DesG" prefWidth="100.0" text="Descripcion" />
+                     <TableColumn fx:id="tbc_MontoG" prefWidth="75.0" text="Monto" />
+                     <TableColumn fx:id="tbc_TipoG" prefWidth="76.0" text="Tipo" />
+                     <TableColumn fx:id="tbc_FechaG" prefWidth="89.0" text="Fecha" />
+                     <TableColumn fx:id="tbc_CatG" prefWidth="90" text="Categoria" />
+                     <TableColumn fx:id="tbc_OriG" prefWidth="102.57257080078125" text="Origen" />
+                     <TableColumn fx:id="tbc_DestG" prefWidth="80.4273681640625" text="Destino" />
+                 </columns>
+             </TableView>
+              <ComboBox fx:id="cmbx_Tipo" layoutX="112.0" layoutY="201.0" prefHeight="37.0" prefWidth="131.0" promptText="Tipo" styleClass="botonBlanco" stylesheets="@../Css/Color.css" />
+              <Button fx:id="btt_Realizar" layoutX="748.0" layoutY="668.0" onAction="#Realizar" prefHeight="29.0" prefWidth="100.0" styleClass="btnBotones" stylesheets="@../Css/Buttons.css" text="Realizar" />
+              <Button fx:id="btt_Cancelar" layoutX="748.0" layoutY="731.0" onAction="#Cancelar" prefHeight="29.0" prefWidth="100.0" styleClass="btnBotones" stylesheets="@../Css/Buttons.css" text="Cancelar" />
+            <TableView fx:id="tb_Origen" layoutX="243.0" layoutY="368.0" prefHeight="157.0" prefWidth="261.0" styleClass="table" stylesheets="@../Css/Color.css">
+               <columns>
+                  <TableColumn fx:id="tbc_UsuuarioOrigen" editable="false" prefWidth="136.14358520507812" text="Usuario" />
+                  <TableColumn fx:id="tbc_CuentaOrigen" editable="false" prefWidth="124.85638427734375" text="Cuenta" />
+               </columns>
+            </TableView>
+            <TableView fx:id="tb_Categoria" layoutX="583.0" layoutY="138.0" prefHeight="123.0" prefWidth="221.0" styleClass="table" stylesheets="@../Css/Color.css">
+               <columns>
+                  <TableColumn fx:id="tbc_NombreCategoria" editable="false" prefWidth="221.5999934911728" text="Categoria" />
+               </columns>
+            </TableView>
+            <TableView fx:id="tb_Destino" layoutX="543.0" layoutY="368.0" prefHeight="157.0" prefWidth="261.0" styleClass="table" stylesheets="@../Css/Color.css">
+               <columns>
+                  <TableColumn fx:id="tbc_UsuarioDestino" editable="false" prefWidth="129.00201416015625" text="Usuario" />
+                  <TableColumn fx:id="tbc_CuentaDestino" editable="false" prefWidth="131.0" text="Cuenta" />
+               </columns>
+            </TableView>
+            <VBox layoutX="16.0" layoutY="24.0" prefHeight="61.0" prefWidth="364.0">
+               <children>
+                  <AnchorPane prefHeight="61.0" prefWidth="362.0" styleClass="sideAnker" stylesheets="@../Css/Style.css">
+                     <children>
+                        <Text layoutX="26.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="logo" text="Movimiento Financiero" />
+                        <ImageView fitHeight="41.0" fitWidth="48.0" layoutX="297.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../image/money-check-alt-svgrepo-com.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <Label layoutX="563.0" layoutY="314.0" styleClass="funTxto" stylesheets="@../Css/Color.css" text="Cuenta Destino" />
+            <Label layoutX="58.0" layoutY="503.0" styleClass="funTxto" stylesheets="@../Css/Color.css" text="Transacción" />
+            <Label layoutX="550.0" layoutY="87.0" styleClass="funTxto" stylesheets="@../Css/Color.css" text="Categoria" />
+            <Label layoutX="339.0" layoutY="314.0" styleClass="funTxto" stylesheets="@../Css/Color.css" text="Cuenta Origen" />
+         </children>
+      </AnchorPane>
+   </children>
+
+</VBox>

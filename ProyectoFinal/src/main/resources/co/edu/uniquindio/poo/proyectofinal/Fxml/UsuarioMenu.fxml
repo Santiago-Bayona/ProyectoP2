@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="853.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.proyectofinal.ViewController.UsuarioMenuVC">
+   <bottom>
+      <AnchorPane prefHeight="70.0" prefWidth="854.0" styleClass="AnchorPane" stylesheets="@../Css/Style.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="img_Cuenta" fitHeight="49.0" fitWidth="56.0" layoutX="82.0" layoutY="5.0" onMouseClicked="#MostrarCuentas" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/circle-person-profile-user-group-people-svgrepo-com.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="56.0" layoutX="272.0" layoutY="5.0" onMouseClicked="#MostrarTransacciones" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/simple-wallet-line-drawing-svgrepo-com.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="56.0" layoutX="469.0" layoutY="5.0" onMouseClicked="#MostrarPresupuestos" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/pig-piggy-bank-svgrepo-com.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="84.0" layoutY="53.0" prefHeight="18.0" prefWidth="56.0" text="Cuentas" textFill="#fcfafa">
+               <font>
+                  <Font name="Impact" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="254.0" layoutY="53.0" prefHeight="18.0" prefWidth="94.0" text="Transacciones" textFill="#f7f4f4">
+               <font>
+                  <Font name="Impact" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="450.0" layoutY="53.0" onMouseClicked="#MostrarPresupuestos" prefHeight="18.0" prefWidth="88.0" text="Presupuestos" textFill="#f7f4f4">
+               <font>
+                  <Font name="Impact" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="622.0" layoutY="53.0" prefHeight="18.0" prefWidth="58.0" text="Reportes" textFill="#fcfafa">
+               <font>
+                  <Font name="Impact" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="53.0" fitWidth="82.0" layoutX="625.0" layoutY="3.0" onMouseClicked="#MostrarReportes" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/file-document-icon-on-transparent-background-free-png.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btt_Volver" layoutX="793.0" layoutY="42.0" mnemonicParsing="false" onAction="#Volver" prefHeight="18.0" prefWidth="56.0" styleClass="btnBotones" stylesheets="@../Css/Buttons.css" text="***">
+               <font>
+                  <Font size="10.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </bottom>
+   <center>
+      <AnchorPane fx:id="AP_Contenido" prefHeight="190.0" prefWidth="243.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
