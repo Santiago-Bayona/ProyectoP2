@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="sideBar" prefHeight="789.0" prefWidth="638.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.proyectofinal.ViewController.BienvenidoVC">
+   <children>
+      <VBox layoutX="12.0" layoutY="19.0" prefHeight="752.0" prefWidth="313.0">
+         <children>
+            <AnchorPane fx:id="sideAnker" prefHeight="757.0" prefWidth="313.0" styleClass="sideAnker" stylesheets="@../Css/Style.css">
+               <children>
+                  <Text fx:id="titulo" layoutX="63.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="titulo" text="ZEKI" />
+                  <Text fx:id="finTitle" layoutX="41.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="funTitle" text="¡Gestiona tu dinero de forma fácil y segura!" wrappingWidth="201.9502410888672" />
+                  <ImageView fitHeight="115.0" fitWidth="128.0" layoutX="95.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/banks-museums-galleries-s-2-svgrepo-com.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="69.0" fitWidth="48.0" layoutX="176.0" layoutY="677.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/security-card-svgrepo-com.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <Circle layoutX="397.0" layoutY="255.0" radius="58.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9803921580314636" green="0.364705890417099" blue="0.364705890417099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color red="0.9803921580314636" green="0.364705890417099" blue="0.364705890417099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.5333333611488342" blue="0.4431372582912445" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="575.0" layoutY="343.0" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5131579041481018" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color red="0.9803921580314636" green="0.364705890417099" blue="0.364705890417099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.5333333611488342" blue="0.4431372582912445" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="567.0" layoutY="565.0" radius="58.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5131579041481018" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color red="0.9803921580314636" green="0.364705890417099" blue="0.364705890417099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.5333333611488342" blue="0.4431372582912445" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="425.0" layoutY="571.0" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5131579041481018" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color red="0.9803921580314636" green="0.364705890417099" blue="0.364705890417099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.5333333611488342" blue="0.4431372582912445" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="366.0" layoutY="737.0" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5131579041481018" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color red="0.9803921580314636" green="0.364705890417099" blue="0.364705890417099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.5333333611488342" blue="0.4431372582912445" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="398.0" layoutY="67.0" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5131579041481018" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color red="0.9803921580314636" green="0.364705890417099" blue="0.364705890417099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.5333333611488342" blue="0.4431372582912445" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="481.0" layoutY="169.0" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5131579041481018" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color red="0.9803921580314636" green="0.364705890417099" blue="0.364705890417099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.5333333611488342" blue="0.4431372582912445" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="581.0" layoutY="94.0" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5131579041481018" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color red="0.9803921580314636" green="0.364705890417099" blue="0.364705890417099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.5333333611488342" blue="0.4431372582912445" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="377.0" layoutY="409.0" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5131579041481018" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color red="0.9803921580314636" green="0.364705890417099" blue="0.364705890417099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.5333333611488342" blue="0.4431372582912445" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <Circle layoutX="606.0" layoutY="760.0" radius="27.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.5131579041481018" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color red="0.9803921580314636" green="0.364705890417099" blue="0.364705890417099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.5333333611488342" blue="0.4431372582912445" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Circle>
+      <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="462.0" layoutY="672.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/lock-security-open-svgrepo-com.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="48.0" layoutX="394.0" layoutY="677.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/simple-wallet-line-drawing-svgrepo-com.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="134.0" layoutX="533.0" layoutY="676.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/money-bar-chart-svgrepo-com.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txt_Correo" alignment="CENTER" layoutX="412.0" layoutY="264.0" promptText="Correo" />
+      <TextField fx:id="txt_Contrasenia" alignment="CENTER" layoutX="412.0" layoutY="330.0" promptText="Contraseña" />
+      <Button fx:id="btt_Ingresar" layoutX="416.0" layoutY="379.0" mnemonicParsing="false" onAction="#Ingresar" styleClass="buttonIngreso" stylesheets="@../Css/Buttons.css" text="INGRESAR" />
+      <Label layoutX="397.0" layoutY="457.0" text="¿Necesitas registrate?" />
+      <Hyperlink fx:id="hyp_Registar" layoutX="519.0" layoutY="454.0" onAction="#Registrar" text="Hazlo ya" />
+      <Hyperlink fx:id="hyp_Recuperar" layoutX="442.0" layoutY="483.0" onAction="#Recuperar" text="Recuperar Contraseña" />
+   </children>
+</AnchorPane>

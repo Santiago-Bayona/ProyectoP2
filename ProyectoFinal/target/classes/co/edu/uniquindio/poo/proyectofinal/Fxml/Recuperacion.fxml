@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="513.0" prefWidth="678.0" stylesheets="@../Css/Color.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.proyectofinal.ViewController.RecuperacionVC">
+   <children>
+      <TextField fx:id="txt_Respuesta" layoutX="476.0" layoutY="343.0" prefHeight="53.0" prefWidth="161.0" promptText="Respuesta" styleClass="botonBlanco" />
+      <TextField fx:id="txt_ContraseniaNueva" layoutX="270.0" layoutY="423.0" prefHeight="53.0" prefWidth="170.0" promptText="Nueva Contraseña" styleClass="botonBlanco" />
+      <ComboBox fx:id="cmbx_Pregunta" layoutX="273.0" layoutY="343.0" prefHeight="56.0" prefWidth="161.0" promptText="Pregunta" styleClass="botonBlanco" stylesheets="@../Css/Color.css" />
+      <Button fx:id="btt_Cambiar" layoutX="499.0" layoutY="420.0" mnemonicParsing="false" onAction="#CambiarContrasenia" prefHeight="52.0" prefWidth="121.0" styleClass="btnVolver" stylesheets="@../Css/Buttons.css" text="Cambiar" />
+      <TableView fx:id="tb_Usuario" layoutX="338.0" layoutY="157.0" prefHeight="152.0" prefWidth="252.0" styleClass="table" stylesheets="@../Css/Color.css">
+        <columns>
+          <TableColumn fx:id="tbc_Cedula" maxWidth="500.0" minWidth="50.0" prefWidth="250.0" text="Usuario" />
+        </columns>
+      </TableView>
+      <VBox layoutX="13.0" layoutY="12.0" prefHeight="489.0" prefWidth="229.0">
+         <children>
+            <AnchorPane fx:id="SideAnker" prefHeight="489.0" prefWidth="259.0" styleClass="sideAnker" stylesheets="@../Css/Style.css">
+               <children>
+                  <Button fx:id="btt_Volver" layoutX="17.0" layoutY="18.0" mnemonicParsing="false" onAction="#Volver" prefHeight="42.0" prefWidth="112.0" styleClass="btnVolver" stylesheets="@../Css/Buttons.css" text="Volver" />
+                  <Text layoutX="29.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="funTitle" text=" ¿Olvidaste      tú   Contraseña?" wrappingWidth="176.0435791015625" />
+                  <Text layoutX="78.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="logo" text="Zequi" />
+                  <ImageView fitHeight="27.0" fitWidth="102.0" layoutX="153.0" layoutY="439.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/pig-piggy-bank-svgrepo-com.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <VBox layoutX="265.0" layoutY="12.0" prefHeight="95.0" prefWidth="402.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="sideAnker" stylesheets="@../Css/Style.css">
+               <children>
+                  <Text layoutX="16.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="funTitle" text="Restablece" wrappingWidth="166.2757797241211" />
+                  <Text layoutX="201.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="funTitle" text="Tús" />
+                  <Text layoutX="283.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="funTitle" text="Datos" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
