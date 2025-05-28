@@ -1,0 +1,78 @@
+.sideAnker{
+    -fx-background-color: #ff8871;
+    -fx-border-color: #FA5D5D;
+    -fx-border-width: 5px 5px 5px 5px;
+    -fx-border-style: solid;
+
+}
+
+
+
+.root{
+    -fx-background-color: #F4F4F4;
+    -fx-background-radius: 0 20px 20px 0;
+    -fx-padding: 20px;
+}
+
+
+
+.AnchorPane {
+    -fx-background-color: linear-gradient(to bottom, #ff5d5d, #ff6570);
+}
+
+
+.logo{
+
+    -fx-font-family: "Georgia", serif; /* Cambia por la fuente que prefieras */
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(to right, #6a11cb, #2575fc);
+    -fx-background-radius: 15px;
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 8, 0, 4, 4);
+    -fx-alignment: center;
+
+}
+
+.tituloRegistro{
+    -fx-font-family: "Georgia", serif; /* Cambia por la fuente que prefieras */
+    -fx-font-size: 50px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(to right, #6a11cb, #2575fc);
+    -fx-background-radius: 15px;
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 8, 0, 4, 4);
+    -fx-alignment: center;
+}
+
+.funTitle{
+    -fx-font-family: "Comic Sans MS", "Chalkduster", cursive; /* Fuentes divertidas */
+    -fx-font-size: 30px;
+    -fx-text-fill: #FF6347; /* Color divertido (tomate) */
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0, 2, 2);
+    -fx-padding: 10px;
+    -fx-background-color: yellow;
+    -fx-background-radius: 15px;
+    -fx-alignment: center;
+
+}
+
+
+.titulo{
+    -fx-font-family: "Georgia", serif; /* Cambia por la fuente que prefieras */
+    -fx-font-size: 70px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(to right, #6a11cb, #2575fc);
+    -fx-background-radius: 15px;
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 8, 0, 4, 4);
+    -fx-alignment: center;
+
+}
+
+
+

@@ -1,0 +1,103 @@
+.btnVolver {
+    -fx-background-color: linear-gradient(to right, #ff4949, #ff998d);
+    -fx-font-family: "Georgia", serif; /* Cambia por la fuente que prefieras */
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 15px;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0.5, 0, 4);
+    -fx-border-color: transparent;
+    -fx-transition: background-color 0.3s ease;
+}
+
+
+.btnVolverPequenio {
+    -fx-background-color: linear-gradient(to right, #ff4949, #ff998d);
+    -fx-font-family: "Georgia", serif; /* Cambia por la fuente que prefieras */
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 15px;
+}
+
+
+.buttonIngreso{
+    -fx-background-color: linear-gradient(to right, #ff4949, #ff998d);
+    -fx-font-family: "Georgia", serif; /* Cambia por la fuente que prefieras */
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 20px 25px;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0.5, 0, 4);
+    -fx-border-color: transparent;
+    -fx-transition: background-color 0.3s ease;
+}
+
+
+.btnBonito{
+    -fx-background-color: linear-gradient(to right, #ff4949, #ff998d);
+    -fx-font-family: "Georgia", serif; /* Cambia por la fuente que prefieras */
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 1px 1px;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0.5, 0, 4);
+    -fx-border-color: transparent;
+    -fx-transition: background-color 0.3s ease;
+}
+
+.btnBotones{
+    -fx-background-color: linear-gradient(to right, #ffb1b1, #ff998d);
+    -fx-font-family: "Georgia", serif; /* Cambia por la fuente que prefieras */
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 1px 1px;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0.5, 0, 4);
+    -fx-border-color: transparent;
+    -fx-transition: background-color 0.3s ease;
+}
+
+
+.btnBotonn{
+    -fx-background-color: linear-gradient(to right, #ffb1b1, #ffffff);
+    -fx-font-family: "Georgia", serif; /* Cambia por la fuente que prefieras */
+    -fx-text-fill: #000000;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-padding: 1px 1px;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0.5, 0, 4);
+    -fx-border-color: transparent;
+    -fx-transition: background-color 0.3s ease;
+}
+
+
+.miniBoton{
+    -fx-background-color: linear-gradient(to right, #ff4949, #ff998d);
+    -fx-font-family: "Georgia", serif; /* Cambia por la fuente que prefieras */
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-padding: 1px 11px;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 4, 0.5, 0, 4);
+    -fx-border-color: transparent;
+    -fx-transition: background-color 0.3s ease;
+}
